@@ -2,16 +2,17 @@
 layout: post
 title:  "Error management"
 date:   2019-09-24 12:35:28 +0800
-categories: disgressions
+categories: [blog, coding]
+tags: [python, error]
 ---
 
-## Dr Jekyll and Mr Hyde
 I made a habit at work to structure my programs around an error management backbone.
 
 For business, it is critical to ensure that all errors are caught and handled, with critical ones getting proper feedback to user.
 
 That applies to serious business.
 
+## Dr Jekyll and Mr Hyde
 ## Work/robust coding VS fun coding
 
 But sometimes it is overkill:

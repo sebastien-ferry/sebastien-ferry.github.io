@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Up and running!
+categories: [blog]
+tags: [self]
 ---
 
 Welcome...
