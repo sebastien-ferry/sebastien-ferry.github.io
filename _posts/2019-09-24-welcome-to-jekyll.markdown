@@ -12,3 +12,7 @@ Welcome back! To Jekyll! To GitHub Pages!
 ![I'll be back!](/assets/Ill-be-back-940x450.jpg)
 
 September 2019, I am back.
+
+Probably helped by:
+  * [Hosting a Jekyll blog to Github Pages](https://diegosc.com/jekyll-github-pages)
+  * [How to switch Jekyll theme on GitHub Pages site](<http://www.natalyakosenko.com/2017-12-23-how-to-switch-jekyll-theme-on-github-pages-site>) *with much success...*

@@ -9,7 +9,7 @@ There is not much at the moment for the errand.
 
 ## Why those pages!?
 
-  * Keep my little ones accessible to me
+  * First and foremost, to keep my little ones accessible to **me**
   * Play with github
   * Invite me to more rigor in small projects (at least with a README)
 
