@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Bluetooth Low Energy everywhere!"
-date:   2019-09-24 12:35:28 +0800
+date:   2019-10-04 12:35:28 +0800
 categories: [blog, coding]
 tags: [python, ble, bluetooth, rasperry pi zero w]
 excerpt_separator: <!--more-->
 ---
 It is just crazy that so many devices broadcast so much through Bluetooth Low Energy!
-    Cars, Bikes (rent), what else?
+    Cars, cars accessories, fitness tracker, bikes (rent), what else?
 
 Inspired by a thread on [Hacker News: Retail stores use Bluetooth beacons to track customers](<https://news.ycombinator.com/item?id=20183968> "Y").
 

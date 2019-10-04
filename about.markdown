@@ -9,7 +9,7 @@ There is not much at the moment for the errand.
 
 ## Why those pages!?
 
-  * First and foremost, to keep my little ones accessible to **me**
+  * First and foremost, to keep my little ones accessible to **me**. Once connected to internet, it is quite easy to `git clone` (compared to fight with my VLAN)
   * Play with github
   * Invite me to more rigor in small projects (at least with a README)
 
