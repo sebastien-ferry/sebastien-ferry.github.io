@@ -1,6 +1,6 @@
-# [sebastien-ferry.github.io] (<https://sebastien-ferry.github.io/> "Github page: sebastien-ferry.github.io")
+# [sebastien-ferry.github.io](<https://sebastien-ferry.github.io/> "Github page: sebastien-ferry.github.io")
 
-[sebastien-ferry.github.io] (<https://sebastien-ferry.github.io/> "Github page: sebastien-ferry.github.io")
+My github page at: [sebastien-ferry.github.io](<https://sebastien-ferry.github.io/> "Github page: sebastien-ferry.github.io")
 
 # My (n)ever-coming blog
 
