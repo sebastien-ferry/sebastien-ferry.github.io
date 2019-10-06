@@ -60,9 +60,9 @@ for dev in devices:
 
 Coming soon
 
-  * sensor
-  * database
-  * flask web access
+  * sensor : <https://github.com/sebastien-ferry/ble_sensor>
+  * database : <https://github.com/sebastien-ferry/ble_database>
+  * flask web access : <https://github.com/sebastien-ferry/ble_flask>
 
 ## Some result
 
