@@ -13,15 +13,15 @@ Here is a list of things that change life...
 
 ## Adopted (recently)
 
-  * shellcheck
-https://www.shellcheck.net/ [github](https://github.com/koalaman/shellcheck)
+*   shellcheck
+<https://www.shellcheck.net/> [github](https://github.com/koalaman/shellcheck)
 finds bugs in your shell scripts.
 Integrated with VIM !!!
 
-  * syntastic + pycodestyle (and more/less)
+*   syntastic + pycodestyle (and more/less)
 
 ## Not so sure (anymore)
 
-  * powerline
+*   powerline
 
 TO BE CONTINUED... AND UPDATED!

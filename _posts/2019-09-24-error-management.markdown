@@ -16,19 +16,10 @@ That applies to serious business.
 ## Work/robust coding VS fun coding
 
 But sometimes it is overkill:
-  * Adding error management adds complexity. And a simple script of 10 lines becomes a fat one of 50-80 lines.
-  * Logging may generate errors!
-  * Error inside error management functions are also a thing...
-  * Handling all errors may require a lot of effort, for error that will almost never happen (config missing or else)
+*   Adding error management adds complexity. And a simple script of 10 lines becomes a fat one of 50-80 lines.
+*   Logging may generate errors!
+*   Error inside error management functions are also a thing...
+*   Handling all errors may require a lot of effort, for error that will almost never happen (config missing or else)
 
 All in all, a nice crash when acceptable may bring as much information.
 In this case, error is managed by the upper layer (the operating system), and life goes on...
-
-
-{% highlight python %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}

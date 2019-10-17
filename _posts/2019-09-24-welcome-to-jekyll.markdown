@@ -7,7 +7,7 @@ tags: [Jekyll, self]
 ---
 Welcome back! To Jekyll! To GitHub Pages!
 
-[In 2014...]({% post_url 2014-03-03-Hello-World %})...
+[In 2014](<{% post_url 2014-03-03-Hello-World %}>)...
 
 ![I'll be back!](/assets/Ill-be-back-940x450.jpg)
 
