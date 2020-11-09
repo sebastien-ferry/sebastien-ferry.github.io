@@ -12,11 +12,8 @@ pacman, no description
 
 <!--more-->
 
-<details>
-<summary>
 /etc/pacman.d/hooks/ description-install.hook
-</summary>
-```shell
+```sh
 # Display description of packages installed / upgraded / removed
 [Trigger]
 Operation = Install
@@ -34,4 +31,3 @@ When = PreTransaction
 NeedsTargets
 Exec = /usr/bin/xargs expac -S "      | %-10n:  %d"
 ```
-</details>
