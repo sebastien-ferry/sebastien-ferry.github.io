@@ -13,21 +13,20 @@ pacman, no description
 <!--more-->
 
 /etc/pacman.d/hooks/ description-install.hook
-```sh
-# Display description of packages installed / upgraded / removed
-[Trigger]
-Operation = Install
 
-Type = Package
-Target = *
-
-[Action]
-# for xargs:
-Depends = findutils
-Depends = expac
-Description = HOOK : Display full description of packages (install)
-When = PreTransaction
-# provide target name on stdin:
-NeedsTargets
-Exec = /usr/bin/xargs expac -S "      | %-10n:  %d"
-```
+    # Display description of packages installed / upgraded / removed
+    [Trigger]
+    Operation = Install
+    
+    Type = Package
+    Target = *
+    
+    [Action]
+    # for xargs:
+    Depends = findutils
+    Depends = expac
+    Description = HOOK : Display full description of packages (install)
+    When = PreTransaction
+    # provide target name on stdin:
+    NeedsTargets
+    Exec = /usr/bin/xargs expac -S "      | %-10n:  %d"
