@@ -8,9 +8,11 @@ excerpt_separator: <!--more-->
 ---
 BTW, I use arch.
 
-pacman, no description
+Here are 2 small snippets to hook pacman to provide the desciption of packages updated/removed (installed too).
 
 <!--more-->
+
+# Update or delete
 
 /etc/pacman.d/hooks/ description-install.hook
 
@@ -30,3 +32,28 @@ pacman, no description
     # provide target name on stdin:
     NeedsTargets
     Exec = /usr/bin/xargs expac -S "      | %-10n:  %d"
+
+
+
+# Update or delete
+
+/etc/pacman.d/hooks/ description-update-remove.hook
+
+```
+# Display description of packages installed / upgraded / removed
+[Trigger]
+Operation = Install
+
+Type = Package
+Target = *
+
+[Action]
+# for xargs:
+Depends = findutils
+Depends = expac
+Description = HOOK : Display full description of packages (install)
+When = PreTransaction
+# provide target name on stdin:
+NeedsTargets
+Exec = /usr/bin/xargs expac -Q "      | %-10n:  %d"
+```
