@@ -6,11 +6,12 @@ categories: [blog, linux, arch]
 tags: [arch, ruby, github-pages]
 excerpt_separator: <!--more-->
 ---
-BTW, I use arch.
 
 Because I forgot how to update this space...
 
 <!--more-->
+
+BTW, I use arch...
 
 # Somewhere in cyberspace
 
@@ -23,4 +24,7 @@ cd /PATH/TO/YOUR/JEKYLL/PROJECT
 bundle-2.7 install
 bundle-2.7 exec jekyll serve
 ```
+# Also github
+
+...
 
