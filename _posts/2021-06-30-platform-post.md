@@ -7,65 +7,60 @@ tags: [arch, ruby, github-pages]
 excerpt_separator: <!--more-->
 ---
 
-Because I forgot how to update this space...
+Because I always forget how to update this space...
 
 <!--more-->
 
 BTW, I use arch...
 
-# Install Ruby + Jekyll
+# Run now!
 
-ArchLinux Forum » Newbie Corner » [Solved "bundle exec jekyll serve" crashes](https://bbs.archlinux.org/viewtopic.php?id=265534)
+* `cd /PATH/TO/YOUR/JEKYLL/PROJECT`
+<hr>
+* **`bundle-2.7 exec jekyll serve`**
+<hr>
+- `ssh-agent -s`
+- `$SSH_AUTH_SOCK="/tmp/ssh-XXXXXXHell0/agent.12345"`
+- `$SSH_AGENT_PID=12345;`
+<hr>
+* `git add .`
+* `git commit`
+* `git push`
 
-> Install ruby **2.7**
->
-> **`sudo pacman -S ruby2.7`**
 
-`cd /PATH/TO/YOUR/JEKYLL/PROJECT`
+# Setup
+## Install Ruby *2.7* + Jekyll
+source: ArchLinux Forum » Newbie Corner » [Solved "bundle exec jekyll serve" crashes](https://bbs.archlinux.org/viewtopic.php?id=265534)
 
-> Install **Jekyll**
->
-> **`bundle-2.7 install`**
+* **`sudo pacman -S ruby2.7`**
+* `cd /PATH/TO/YOUR/JEKYLL/PROJECT`
+**`bundle-2.7 install`**
 
-> Launch **Jekyll**:
->
-> **`bundle-2.7 exec jekyll serve`**
 
-# Also github
-
+## Github: create key
 
 [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-> Start the ssh-agent in the background.
-> 
-> `eval "$(ssh-agent -s)"`
->
-> `Agent pid 59566`
+Start the ssh-agent in the background.
+
+`eval "$(ssh-agent -s)"`
+
+`Agent pid 59566`
 
 
-> Add your SSH private key to the ssh-agent.
->
-> `ssh-add ~/.ssh/id_ed25519`
+Add your SSH private key to the ssh-agent.
+
+`ssh-add ~/.ssh/id_ed25519`
 
 ## ssh-agent output
-> SSH_AUTH_SOCK=/tmp/ssh-XXXXXXOJAapU/agent.27281; export SSH_AUTH_SOCK;
-> SSH_AGENT_PID=27282; export SSH_AGENT_PID;
-> echo Agent pid 27282;
+SSH_AUTH_SOCK=/tmp/ssh-XXXXXXOJAapU/agent.27281; export SSH_AUTH_SOCK;
 
-## fish
-`eval (ssh-agent -c)`
-> set SSH_AUTH_SOCK /tmp/ssh-XXXXXXOJAapU/agent.27281
->
->set SSH_AGENT_PID 27282
+SSH_AGENT_PID=27282; export SSH_AGENT_PID;
 
-<!--
-https://alpaca0984.github.io/2018/01/14/Using-ssh-agent-in-fish-shell/
--->
-## Xonsh
-...
+echo Agent pid 27282;
 
 # GitHub Flavored Markdown Spec
 
 [https://github.github.com/gfm](https://github.github.com/gfm)
 
-GitHub Flavored Markdown, often shortened as GFM, is the dialect of Markdown that is currently supported for user content 
+GitHub Flavored Markdown, often shortened as GFM, is the dialect of Markdown that is currently supported for user content.
