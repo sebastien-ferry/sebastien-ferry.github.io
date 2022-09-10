@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "updated tools for 2022"
+title:  "Linux tools for 2022"
 date:   2022-01-15 12:00:00 +0800
-categories: [linux, arch]
-tags: [shell, utilities]
+categories: [linux]
+tags: [itooling, shell, utilities]
 excerpt_separator: <!--more-->
 ---
 
-Some cools tools glaned here and there...
+Some cools tools found here and there...
 
 <!--more-->
 
@@ -16,12 +16,14 @@ Some cools tools glaned here and there...
 btm, bpytop, btop
 
 # Xonsh (but)
+
 bat
 lsd
 rg, fd
 
 lf, (broot, ranger, nnn)
-croc Also androidlazydocker, lazygit
+croc Also android
+lazydocker, lazygit
 tig
 
 lnav
@@ -34,6 +36,7 @@ ripgrep-all (ripgrep, but also PDF, zip, ebooks, etc)
 
 pv
 
+ncdu
 
 # Some sources
 

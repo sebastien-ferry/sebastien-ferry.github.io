@@ -2,25 +2,31 @@
 layout: post
 title:  "Error management"
 date:   2019-09-24 12:35:28 +0800
-categories: [blog, coding, thoughts]
+categories: [coding]
 tags: [python, error, thoughts]
 excerpt_separator: <!--more-->
 ---
-To try: or not to try:. Some thoughts.
+To "try:" or not to "try:". Some thoughts.
+
 <!--more-->
+
 I made a habit at work to structure my programs around an error management backbone.
 
-For business, it is critical to ensure that all errors are caught and handled, with critical ones getting proper feedback to user.
+
+For business, it is critical to ensure that all errors are caught and handled, with critical ones getting proper feedback to the user, and logged for the backend team.
+
 
 That applies to serious business.
-## Dr Jekyll and Mr Hyde
-## Work/robust coding VS fun coding
+
+# Dr Jekyll and Mr Hyde
+
+# Work/robust coding VS fun coding
 
 But sometimes it is overkill:
   * Adding error management adds complexity. And a simple script of 10 lines becomes a fat one of 50-80 lines.
   * Logging may generate errors!
   * Error inside error management functions are also a thing...
-  * Handling all errors may require a lot of effort, for error that will almost never happen (config missing or else)
+  * Handling all errors may require a lot of effort, for errors that will almost never happen (config missing or else)
 
 All in all, a nice crash when acceptable may bring as much information.
 In this case, error is managed by the upper layer (the operating system), and life goes on...

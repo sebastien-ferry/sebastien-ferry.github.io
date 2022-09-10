@@ -2,13 +2,12 @@
 layout: post
 title:  "Why using TLS🔒 (in 2022)"
 date:   2022-09-07 12:00:00 +0800
-categories: [firefox]
-tags: [firefox, about:config]
+categories: [internet]
+tags: [internet, security]
 excerpt_separator: <!--more-->
 ---
 
 Answering to this question since 20 years!
-
 
 <!--more-->
 

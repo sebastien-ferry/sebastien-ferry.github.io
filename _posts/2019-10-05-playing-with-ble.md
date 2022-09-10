@@ -2,17 +2,18 @@
 layout: post
 title:  "Bluetooth Low Energy everywhere!"
 date:   2019-10-04 12:35:28 +0800
-categories: [blog, coding]
+categories: [coding]
 tags: [python, ble, bluetooth, rasperry pi zero w]
 excerpt_separator: <!--more-->
 ---
-Bluetooth device are so noisy. Inspired by a thread on [Hacker News: Retail stores use Bluetooth beacons to track customers](<https://news.ycombinator.com/item?id=20183968> "Y").
+Bluetooth device are very talkative in the street. Inspired by a thread on [Hacker News: Retail stores use Bluetooth beacons to track customers](<https://news.ycombinator.com/item?id=20183968> "Y").
 
+Here is some code and results of the noise in my street from cars, cars accessories, fitness tracker, bikes (rent), what else?
 <!--more-->
-It is just crazy that so many devices broadcast so much through Bluetooth Low Energy!
-    Cars, cars accessories, fitness tracker, bikes (rent), what else?
 
-4 millions recording later.
+It is just crazy that so many devices broadcast so much through Bluetooth Low Energy!
+
+4 millions recording later...
 
 ![Raspberry pi zero W](/assets/ble_raspberry_pi_zero_w_1-5_large.png){: style="float:right; width:30%"}
 

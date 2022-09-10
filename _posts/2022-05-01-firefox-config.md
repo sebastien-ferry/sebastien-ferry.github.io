@@ -3,7 +3,7 @@ layout: post
 title:  "Firefox configuration"
 date:   2022-05-01 12:00:00 +0800
 categories: [firefox]
-tags: [firefox, about_config]
+tags: [firefox, about:config]
 excerpt_separator: <!--more-->
 ---
 

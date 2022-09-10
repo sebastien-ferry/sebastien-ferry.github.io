@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Free access to Mankind production"
+title:  "Mankind knowledge freely flowing..."
 date:   2022-09-09 12:00:00 +0800
 categories: [access, free]
-tags: [3lib, emule, torrent]
+tags: [3lib, emule, torrent, WIP]
 excerpt_separator: <!--more-->
 ---
-Because knowledge shall be free... at least
+Because knowledge shall be accessible... at least...
 
 <!--more-->
 
-<img src="{{site.url}}/assets/knowledge.png" align=right width="360px">
+ ![Knowledge](/assets/knowledge.png){: style="float:right; width:40%"}
 
 # Archive.org / Archive.is
 
@@ -48,3 +48,7 @@ They still exist!!
 
 
 ## torrent
+
+# Scientific production
+
+sci-hub

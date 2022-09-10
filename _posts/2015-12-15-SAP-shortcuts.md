@@ -1,9 +1,12 @@
 ---
 layout: post
 title: SAP Shortcuts
-categories: [blog, corporate]
-tags: [SAP, sharing]
+categories: [corporate]
+tags: [SAP, sharing, WIP]
+excerpt_separator: <!--more-->
 ---
 That was a placeholder for a cool presentation on SAP shortcuts...
+<!--more-->
+# SAP Shortcuts
 
-### SAP Shortcuts
+

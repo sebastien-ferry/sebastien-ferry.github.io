@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "github pages: ruby memo"
+title:  "Github pages: ruby memo (and git/github push)"
 date:   2021-06-30 12:00:00 +0800
-categories: [blog, linux, arch]
+categories: [blog, linux]
 tags: [arch, ruby, github-pages]
 excerpt_separator: <!--more-->
 ---
@@ -44,9 +44,7 @@ source: ArchLinux Forum » Newbie Corner » [Solved "bundle exec jekyll serve" c
 Start the ssh-agent in the background.
 
 `eval "$(ssh-agent -s)"`
-
 `Agent pid 59566`
-
 
 Add your SSH private key to the ssh-agent.
 
@@ -54,10 +52,35 @@ Add your SSH private key to the ssh-agent.
 
 ## ssh-agent output
 SSH_AUTH_SOCK=/tmp/ssh-XXXXXXOJAapU/agent.27281; export SSH_AUTH_SOCK;
-
 SSH_AGENT_PID=27282; export SSH_AGENT_PID;
-
 echo Agent pid 27282;
+
+## ArchLinux
+`gh` : alias / function to launch ss-agent and update environment variables!
+```python
+# SSH (Github) and virtual env helpers ----------------------------------------
+def ssh_agent():
+    import re
+    if 'SSH_AUTH_SOCK' in ${...} and 'SSH_AGENT_PID' in ${...}:
+        print("SSH_AUTH_SOCK = ", $SSH_AUTH_SOCK)
+        print("SSH_AGENT_PID = ", $SSH_AGENT_PID)
+	return
+
+    ssh_agent_txt = $(ssh-agent -s)
+
+    for export_env in ssh_agent_txt.split("\n"):
+        param_value = list(filter(None, re.split("([^=]+)=([^;]+).*", export_env)))
+        if len(param_value) == 2:
+           ${param_value[0]} = param_value[1]
+           print(param_value[0], " = ", param_value[1])
+
+    ssh-add
+    ssh-add ~/.ssh/id_rsa_github
+
+aliases['gh'] = ssh_agent
+aliases['vh'] = ['source-bash', './bin/activate']
+
+```
 
 # GitHub Flavored Markdown Spec
 
