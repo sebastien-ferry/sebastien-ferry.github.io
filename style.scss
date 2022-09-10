@@ -18,9 +18,15 @@ html {
 }
 
 body {
-  background: $lightGray;
+  // background: $lightGray;
+  //background-image: linear-gradient(to right, #00b4db, #0083b0);
+  //background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+  //background-image: linear-gradient(to right, #0099f7, #fff, #f11712);
   font: 14px $helvetica;
-  color: $darkGray;
+  color: #1F2667;
+
+  background: rgb(230,237,6);
+  background: linear-gradient(90deg, rgba(230,237,6,0.31708028751568207) 0%, rgba(226,236,104,1) 35%, rgba(245,253,193,1) 100%);
 }
 
 .container {
@@ -32,8 +38,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  background-color: $white;
-  color: $darkGray;
+  background: rgb(247,255,0);
+  background: linear-gradient(90deg, rgba(247,255,0,0.7506569298514485) 0%, rgba(226,236,104,0.6382481707273608) 50%, rgba(245,253,193,0.27036495904852875) 100%);
+
+  //border: 1px solid rgb(247,255,0);
+  //gradient-border : 15px, #00BBFF, #92d7f1 ;
+
   font-weight: bold;
   padding: 0;
 
@@ -59,7 +69,6 @@ h3 {
 
 h4 {
   font-size: 12px;
-  color: $gray;
 }
 
 p {
@@ -149,12 +158,14 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+    margin-bottom: 48px;
+  background: linear-gradient(90deg, rgba(247,255,0,0.7506569298514485) 0%, rgba(226,236,104,0.6382481707273608) 50%, rgba(245,253,193,0.27036495904852875) 100%);
+  border-bottom: 1px solid $lightGray;
 }
 
 .masthead {
   padding: 10px 0;
-  border-bottom: 1px solid $lightGray;
+
 
   @include mobile {
     text-align: center;
@@ -269,10 +280,9 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 4px;
+  margin-top: 48px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background: linear-gradient(90deg, rgba(247,255,0,0.7506569298514485) 0%, rgba(226,236,104,0.6382481707273608) 50%, rgba(245,253,193,0.27036495904852875) 100%);
 }
 
 footer {
