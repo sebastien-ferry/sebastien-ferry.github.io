@@ -32,8 +32,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  background-color: $darkGray;
-  color: $gray;
+  background-color: $white;
+  color: $darkGray;
   font-weight: bold;
   padding: 0;
 
@@ -153,7 +153,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 10px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -193,8 +193,8 @@ img {
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
+  font-weight: 100;
+  font-size: 20px;
   letter-spacing: 1px;
 }
 
@@ -240,7 +240,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   border-bottom: 1px solid $lightGray;
 }
 
@@ -255,7 +255,7 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 12px;
     font-style: italic;
   }
 
@@ -265,19 +265,19 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 4px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 16px 0;
   text-align: center;
 }
 
