@@ -54,7 +54,7 @@ baseurl: ""
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-theme: minima
+theme: jekyll-theme-minimal
 highlighter: rouge
 permalink: /:title/
 
