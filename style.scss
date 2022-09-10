@@ -41,8 +41,6 @@ h1, h2, h3, h4, h5, h6 {
   background: rgb(247,255,0);
   background: linear-gradient(90deg, rgba(247,255,0,0.7506569298514485) 0%, rgba(226,236,104,0.6382481707273608) 50%, rgba(245,253,193,0.27036495904852875) 100%);
 
-  //border: 1px solid rgb(247,255,0);
-  //gradient-border : 15px, #00BBFF, #92d7f1 ;
 
   font-weight: bold;
   padding: 0;
@@ -127,6 +125,27 @@ img {
   color: $gray;
 }
 
+.category {
+    font-variant: small-caps;
+    font-weight: 900;
+    font-size: 10px;
+    font-stretch: condensed;;
+
+    background: #9df;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right,#00BBFF, #92d7f1 );
+    border-image-slice: 1;
+}
+
+.tag {
+    background: $lightGray;
+    //font-variant: small-caps;
+    border: 1px solid rgb(247,255,0);
+    gradient-border : 15px, #00BBFF, #92d7f1 ;
+    font-weight: 900;
+    font-size: 8px;
+    font-stretch: condensed;;
+}
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
