@@ -6,9 +6,7 @@ categories: [blog, linux, arch]
 tags: [arch, pacman, hook]
 excerpt_separator: <!--more-->
 ---
-BTW, I use arch.
-
-Here are 2 small snippets to hook pacman to provide the desciption of packages updated/removed (installed too).
+**BTW, I use arch.** Here are 2 small snippets to hook pacman to provide the desciption of packages updated/removed (installed too).
 
 <!--more-->
 

@@ -6,14 +6,13 @@ categories: [blog, coding]
 tags: [python, ble, bluetooth, rasperry pi zero w]
 excerpt_separator: <!--more-->
 ---
+Bluetooth device are so noisy. Inspired by a thread on [Hacker News: Retail stores use Bluetooth beacons to track customers](<https://news.ycombinator.com/item?id=20183968> "Y").
+
+<!--more-->
 It is just crazy that so many devices broadcast so much through Bluetooth Low Energy!
     Cars, cars accessories, fitness tracker, bikes (rent), what else?
 
-Inspired by a thread on [Hacker News: Retail stores use Bluetooth beacons to track customers](<https://news.ycombinator.com/item?id=20183968> "Y").
-
 4 millions recording later.
-
-<!--more-->
 
 ![Raspberry pi zero W](/assets/ble_raspberry_pi_zero_w_1-5_large.png){: style="float:right; width:30%"}
 

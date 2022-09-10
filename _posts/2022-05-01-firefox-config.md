@@ -3,11 +3,12 @@ layout: post
 title:  "Firefox configuration"
 date:   2022-05-01 12:00:00 +0800
 categories: [firefox]
-tags: [firefox, about:config]
+tags: [firefox, about_config]
 excerpt_separator: <!--more-->
 ---
 
-Big reminder about Firefox setup
+Big reminder about Firefox setup, including addons and settings.
+
 <!--more-->
 
 # addons
@@ -55,6 +56,25 @@ ctrl-shift-a
 
 Ctrl-K to search otherwise
 ^<space> (history), *<space> (bookmarks)
+
+# Pocket (to remove)
+
+  * https://support.mozilla.org/en-US/kb/disable-or-re-enable-pocket-for-firefox
+> Disable or re-enable Pocket for Firefox
+> Pocket is a feature that's built into Firefox. You need to have a Pocket account in order to save articles with the Pocket Fx89PocketButton button, which is found in the Firefox toolbar. 
+
+  * https://support.mozilla.org/en-US/questions/1065182
+> How do I completely remove Pocket (not just disable) ?
+
+  * https://fawove.com/how-to-remove-pocket-from-mozilla-firefox/
+> How to remove Pocket from Mozilla Firefox
+> about:config
+> “extensions.pocket.enabled”
+
+
+
+
+
 
 # Privacy? WebRTC
 

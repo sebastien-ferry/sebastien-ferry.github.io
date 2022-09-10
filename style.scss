@@ -38,9 +38,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  background: rgb(247,255,0);
-  background: linear-gradient(90deg, rgba(247,255,0,0.7506569298514485) 0%, rgba(226,236,104,0.6382481707273608) 50%, rgba(245,253,193,0.27036495904852875) 100%);
-
 
   font-weight: bold;
   padding: 0;
@@ -51,6 +48,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    background: rgb(247,255,0);
+    background: linear-gradient(90deg, rgba(247,255,0,0.7506569298514485) 0%, rgba(226,236,104,0.6382481707273608) 50%, rgba(245,253,193,0.27036495904852875) 100%);
   font-size: 18px;
   a {
     color: inherit;
