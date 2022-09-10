@@ -6,10 +6,11 @@ categories: [access, free]
 tags: [3lib, emule, torrent]
 excerpt_separator: <!--more-->
 ---
-blabla
+Because knowledge shall be free... at least
 
 <!--more-->
-![useful image]({{ site.url }}/assets/knowledge.png)
+
+<img src="{{site.url}}/assets/knowledge.png" align=right width="360px">
 
 # Archive.org / Archive.is
 
@@ -37,7 +38,7 @@ The idea is pretty simple, news sites want Google to index their content so it s
 All we do is show you that cached, unpaywalled version of the page.
 </p>
 </details>
-<summary>
+</summary>
 
 
 # Tools

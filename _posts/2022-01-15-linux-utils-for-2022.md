@@ -38,7 +38,9 @@ pv
 # Some sources
 
 * [A list of new(ish) command line tools (jvns.ca)](https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/)
+
 <!--
+
 https://news.ycombinator.com/item?id=31009313
 
 linear-gradient(180deg, #e3e1e0, rgba(227, 225, 224, 0))
@@ -60,4 +62,5 @@ padding-left: 24px;
 padding-right: 24px;
 padding-top: 0px;
 text-align: start
+
 -->
