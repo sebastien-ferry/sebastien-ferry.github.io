@@ -16,23 +16,22 @@ ctrl-shift-a
 
 ## Top Tier
 
-* Bypass Paywalls Clean
-* I don't care about cookies
-* Panorama View
-* Single File
-* Snooze Tabs
-* SortTabs
-
-* Tree Style Tab
-* TST Bookmarks Subpanel
-* uBlock Origin
-* Unpaywall
-* Zhongwen: Chinese-English dictionary
-
-
-* Tab Stash
-* Temporary Containers
-* What Hacker News Says
+ * Bypass Paywalls Clean
+ * I don't care about cookies
+ * Panorama View
+ * Single File
+ * Snooze Tabs
+ * SortTabs
+<br><br>
+ * Tree Style Tab
+ * TST Bookmarks Subpanel
+ * uBlock Origin
+ * Unpaywall
+ * Zhongwen: Chinese-English dictionary
+<br><br>
+ * Tab Stash
+ * Temporary Containers
+ * What Hacker News Says
 
 ## Keep it?
 * Container Tabs Sidebar

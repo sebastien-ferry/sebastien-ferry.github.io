@@ -3,10 +3,54 @@ layout: default
 ---
 <article class="post">
     <h1>{{ page.title }}</h1>
-    <div class="date">
-        Written on {{ page.date | date: "%B %e, %Y" }}
-    </div>
+    <p>
+        {% for category in page.categories %}
+        <span class="category">{{ category }}</span>
+        {% endfor %}
+        {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+        <div class="date">
+            Written on {{ page.date | date: "%B %e, %Y" }}
+        </div>
+        <br>
+    </p>
     <div class="entry">
         {{ content }}
     </div>
 </article>
+<div>
+    <br><br>
+    <center>
+        {% if page.previous %} 
+        <a href="{{ page.previous.url }}"> ◀ {{ page.previous.title }}</a>
+        {% endif %}
+        ■ ■ ■ 
+        {% if page.next %} 
+        <a href="{{ page.next.url }}">  {{ page.next.title }} ▶ </a>
+        {% endif %}
+    </center>
+</div>
+<div class="seb">
+    <br><br>
+    In the same category:
+    <ul>
+        {% for p in site.posts %}
+        {% assign same_cat  = false %}
+        {% for si_cat in p.categories %}
+        {% for pa_cat in page.categories %}
+        {% if si_cat == pa_cat %}
+        {% assign same_cat  = true %}
+{% endif %}
+    {% endfor %}
+    {% endfor %}
+
+    {% if same_cat == true %}
+        <li> <a href="{{p.url}}"> {{ p.title }}</a>
+        {% for t in p.tags %}
+        <span class="tag"> {{ t }}</span>
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+</ul>
+</div>

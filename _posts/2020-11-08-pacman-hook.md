@@ -14,8 +14,9 @@ It helps me check the description of packages updated.
 
 # Update or delete
 
-/etc/pacman.d/hooks/ description-install.hook
-```bash
+/etc/pacman.d/hooks/ **description-install.hook**
+
+{% highlight linenos linenos %}
 # Display description of packages installed / upgraded / removed
 [Trigger]
 Operation = Install
@@ -32,14 +33,14 @@ When = PreTransaction
 # provide target name on stdin:
 NeedsTargets
 Exec = /usr/bin/xargs expac -S "      | %-10n:  %d"
-```
+{% endhighlight %}
 
 
 # Update or delete
 
-/etc/pacman.d/hooks/ description-update-remove.hook
+/etc/pacman.d/hooks/ **description-update-remove.hook**
 
-```bash
+{% highlight linenos linenos %}
 # Display description of packages installed / upgraded / removed
 [Trigger]
 Operation = Upgrade
@@ -57,4 +58,4 @@ When = PreTransaction
 # provide target name on stdin:
 NeedsTargets
 Exec = /usr/bin/xargs expac -Q "      | %-10n:  %d"
-```
+{% endhighlight %}
