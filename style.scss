@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    border-radius:15px;
     background: rgb(247,255,0);
     background: linear-gradient(90deg, rgba(247,255,0,0.7506569298514485) 0%, rgba(226,236,104,0.6382481707273608) 50%, rgba(245,253,193,0.27036495904852875) 100%);
   font-size: 18px;
@@ -130,20 +131,25 @@ img {
     font-size: 10px;
     font-stretch: condensed;;
 
-    background: #9df;
-    border: 2px solid transparent;
+    //#background: #9df;
+    //border: 2px solid transparent;
+    background: linear-gradient(to right,#00BBFF, #92d7f1 );
     border-image: linear-gradient(to right,#00BBFF, #92d7f1 );
     border-image-slice: 1;
+    border-radius:15px;
+    padding: 0.1em 0.5em 0;
 }
 
 .tag {
     background: $lightGray;
-    //font-variant: small-caps;
+    font-variant: small-caps;
     border: 1px solid rgb(247,255,0);
     gradient-border : 15px, #00BBFF, #92d7f1 ;
+    border-radius:15px;
     font-weight: 900;
     font-size: 8px;
     font-stretch: condensed;;
+    padding: 0.1em 0.5em 0;
 }
 // Specify the color of the selection
 ::-moz-selection {
@@ -269,17 +275,28 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 1em;
-  border-bottom: 1px solid $lightGray;
+    margin: 0.5em;
+  //padding-bottom: 1em;
+  //border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+  //padding-bottom: 1em;
+  //border-bottom: none;
 }
 
 .post {
-  blockquote {
+    
+    border-image: linear-gradient(to right,#00BBFF, #92d7f1 );
+    border-image-slice: 1;
+    border-radius:15px;
+    padding: 0.5em;
+    border: 1px solid rgb(247,255,0);
+
+    background: linear-gradient(45deg, rgba(230,237,6,0.317) 0%, rgba(226,236,104,1) 35%, rgba(245,253,193,1) 100%);
+
+
+    blockquote {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;

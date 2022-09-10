@@ -7,10 +7,11 @@ layout: default
 <div class="posts">
 {% for post in site.posts %}
     <article class="post">
-      <h2>{{ post.date | date: "%Y-%m-%d" }} - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <span style="text-align: right; border: 1px solid red;border-radius: 5px;padding:0.25em 0.2em 0em 0.2em;">📅 <b>{{ post.date | date: "%Y" }}</b>-<span style="font-size:12px;">{{ post.date | date: "%m" }}</span><span style="font-size:8px;">-{{ post.date | date: "%d" }}</span></span>
       {% for category in post.categories %} <span class="category"> {{ category }}</span> {% endfor %}
-      {% for tag in post.tags %} <span class="tag">#{{tag}}</span> {% endfor %}
       <div class="entry">{{ post.excerpt }}</div>
+      {% for tag in post.tags %} <span class="tag">#{{tag}}</span> {% endfor %}
     </article>
     {% endfor %}
 </div>
