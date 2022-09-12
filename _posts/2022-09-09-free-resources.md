@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mankind knowledge freely flowing..."
-date:   2022-09-09 12:00:00 +0800
+date:   9999-09-09 12:00:00 +0800
 categories: [access, free]
 tags: [3lib, emule, torrent, WIP]
 excerpt_separator: <!--more-->
