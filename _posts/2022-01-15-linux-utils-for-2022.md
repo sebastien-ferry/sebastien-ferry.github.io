@@ -3,7 +3,7 @@ layout: post
 title:  "Linux tools for 2022"
 date:   2022-01-15 12:00:00 +0800
 categories: [linux]
-tags: [itooling, shell, utilities]
+tags: [tooling, shell, utilities]
 excerpt_separator: <!--more-->
 ---
 
@@ -36,7 +36,7 @@ ripgrep-all (ripgrep, but also PDF, zip, ebooks, etc)
 
 pv
 
-ncdu
+ncdu, dust
 
 # Some sources
 
