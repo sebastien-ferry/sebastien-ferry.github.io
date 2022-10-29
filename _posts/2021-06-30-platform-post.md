@@ -13,7 +13,7 @@ Because I always forget how to update this space...
 
 BTW, I use arch...
 
-# Update 2022-10 : did it get eaier?
+# Update 2022-10 : did it get easier?
 
 Source: [docs.github.com: Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
@@ -40,21 +40,25 @@ Source: [docs.github.com: Testing your GitHub Pages site locally with Jekyll](ht
 
 GitHub Flavored Markdown, often shortened as GFM, is the dialect of Markdown that is currently supported for user content.
 
- 
-<hr>
+--- 
 
 It seems that below information is outdated / no more needed.
+
+
 # Archive 2021-06
 ### Run now!
 
 * `cd /PATH/TO/YOUR/JEKYLL/PROJECT`
-<hr>
+
+Jekyll:
 * **`bundle-2.7 exec jekyll serve`**
-<hr>
+
+SSH/Agent:
 - `ssh-agent -s`
 - `$SSH_AUTH_SOCK="/tmp/ssh-XXXXXXHell0/agent.12345"`
 - `$SSH_AGENT_PID=12345;`
-<hr>
+
+Git:
 * `git add .`
 * `git commit`
 * `git push`
@@ -111,15 +115,4 @@ def ssh_agent():
 
 aliases['gh'] = ssh_agent
 aliases['vh'] = ['source-bash', './bin/activate']
-
-```
-
-
-# Test 2022
-```mermaid
-sequenceDiagram
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-Alice -> Bob:Another authentication Response
-Bob --> Alice: Another authentication Response
 ```
