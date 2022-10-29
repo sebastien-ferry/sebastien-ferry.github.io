@@ -13,7 +13,39 @@ Because I always forget how to update this space...
 
 BTW, I use arch...
 
-# Run now!
+# Update 2022-10 : did it get eaier?
+
+Source: [docs.github.com: Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+
+* `cd /PATH/TO/YOUR/JEKYLL/PROJECT`
+
+## Run
+ * `bundle exec jekyll serve`
+
+## Update
+ * `bundle update github-pages`
+ 
+##  Install
+ * `bundle install`
+ * `bundle add webrick`
+
+# Git 2 github
+ * `git add .`
+ * `git commit`
+ * `git push`
+ 
+# GitHub Flavored Markdown Spec
+
+[https://github.github.com/gfm](https://github.github.com/gfm)
+
+GitHub Flavored Markdown, often shortened as GFM, is the dialect of Markdown that is currently supported for user content.
+
+ 
+<hr>
+
+It seems that below information is outdated / no more needed.
+# Archive 2021-06
+### Run now!
 
 * `cd /PATH/TO/YOUR/JEKYLL/PROJECT`
 <hr>
@@ -28,8 +60,8 @@ BTW, I use arch...
 * `git push`
 
 
-# Setup
-## Install Ruby *2.7* + Jekyll
+### Setup
+#### Install Ruby *2.7* + Jekyll
 source: ArchLinux Forum » Newbie Corner » [Solved "bundle exec jekyll serve" crashes](https://bbs.archlinux.org/viewtopic.php?id=265534)
 
 * **`sudo pacman -S ruby2.7`**
@@ -37,7 +69,7 @@ source: ArchLinux Forum » Newbie Corner » [Solved "bundle exec jekyll serve" c
 **`bundle-2.7 install`**
 
 
-## Github: create key
+#### Github: create key
 
 [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
@@ -50,12 +82,12 @@ Add your SSH private key to the ssh-agent.
 
 `ssh-add ~/.ssh/id_ed25519`
 
-## ssh-agent output
+### ssh-agent output
 SSH_AUTH_SOCK=/tmp/ssh-XXXXXXOJAapU/agent.27281; export SSH_AUTH_SOCK;
 SSH_AGENT_PID=27282; export SSH_AGENT_PID;
 echo Agent pid 27282;
 
-## ArchLinux
+#### ArchLinux
 `gh` : alias / function to launch ss-agent and update environment variables!
 ```python
 # SSH (Github) and virtual env helpers ----------------------------------------
@@ -81,12 +113,6 @@ aliases['gh'] = ssh_agent
 aliases['vh'] = ['source-bash', './bin/activate']
 
 ```
-
-# GitHub Flavored Markdown Spec
-
-[https://github.github.com/gfm](https://github.github.com/gfm)
-
-GitHub Flavored Markdown, often shortened as GFM, is the dialect of Markdown that is currently supported for user content.
 
 
 # Test 2022
