@@ -8,9 +8,9 @@ excerpt_separator: <!--more-->
 ---
 **BTW, I use arch.** Here are 2 small snippets to hook pacman to provide the description of packages updated/removed (installed too).
 
-It helps me check the description of packages updated.
-
 <!--more-->
+
+It helps me check the description of the packages just updated, and gives a hint about why it is here.
 
 # Update or delete
 

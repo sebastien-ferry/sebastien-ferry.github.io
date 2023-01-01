@@ -19,4 +19,4 @@ Probably helped by:
   * [How to switch Jekyll theme on GitHub Pages site](<http://www.natalyakosenko.com/2017-12-23-how-to-switch-jekyll-theme-on-github-pages-site>) *with much success...*
 
 ## 2022
-September 2022, I'm back at it again! What is happening in Septemberi that mnotivates me?
+September 2022, I'm back at it again! What is happening in September that motivates me?
