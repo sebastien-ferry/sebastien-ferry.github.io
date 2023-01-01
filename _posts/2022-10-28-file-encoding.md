@@ -3,17 +3,25 @@ layout: post
 title:  "File and bites"
 date:   2022-09-18 12:00:00 +0800
 categories: [file]
-tags: [internet, corporate]
+tags: [WIP, utf8, corporate]
 excerpt_separator: <!--more-->
 ---
 
-Encodings
-
-Still a topic in 2022
+Encoding issues are still a topic in 2022, especially when dealing with CJK characters (CJK = Chinese Japanese Korean)!
 
 
 <!--more-->
 
+# What is a character ?
+
+# Tools
+
+MadEdit and successors:
+* wxMEdit http://wxmedit.github.io/
+* MadEdit-Mod
+
+
+# Play with mermaid
 
 clock
 
