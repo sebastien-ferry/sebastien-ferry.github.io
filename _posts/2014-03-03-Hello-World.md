@@ -6,6 +6,8 @@ tags: [self]
 excerpt_separator: <!--more-->
 ---
 *Hello World!*
+
+With some genesis about this blog.
 <!--more-->
 
 # Probably (2014)
@@ -28,3 +30,8 @@ And I finally removed/recreated it locally + github, and I am [still playing in 
 
 More updates happened those last days, than those last years...
 
+# Why you should start a blog right now?
+
+[Alexy Guzey: Why you should start a blog right now? ](https://guzey.com/personal/why-have-a-blog/)
+
+> Summary: in this post I explain why you should start a blog (to help others and to help yourself), what to write about, and how to start it. I hope to persuade you that you should start a blog even if you feel that you have nothing to say and even if almost nobody will read it.
