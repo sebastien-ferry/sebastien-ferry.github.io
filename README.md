@@ -21,3 +21,7 @@ Now in 2019, I feel the time is right.
 So I restart from semi-scratch... and the last one from 2014.
 
 *Qui vivra verra*...
+
+## Quick start...
+
+`bundle exec jekyll serve`
