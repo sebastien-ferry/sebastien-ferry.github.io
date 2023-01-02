@@ -7,7 +7,7 @@ This github repository is a private / opened repository from yet-another-coder(-
 
 There is not much at the moment for the errand.
 
-## Why those pages!?
+# Why those pages!?
 
   * First and foremost, to keep my little ones accessible to **me**. Once connected to internet, it is quite easy to `git clone` (compared to fight with my VLAN)
   * Play with github
@@ -15,23 +15,27 @@ There is not much at the moment for the errand.
 
 Enjoy!
 
-## License
+# License
 
 Still hesitating between a [WTFPL](<http://www.wtfpl.net/> "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE") and a [DBAD](<https://dbad-license.org/> "DON'T BE A DICK PUBLIC LICENSE") ...
-### WTFPL - DO WHAT THE FUCK YOU WANT TO PUBLIC LICENCE
+
+## WTFPL - DO WHAT THE FUCK YOU WANT TO PUBLIC LICENCE
   
 > Version 3.1, July 2019
 > 
-> by Sam Hocevar <sam@hocevar.net>
-> theiostream <matoe@matoe.co.cc>
+> by Sam Hocevar
+>
+> theiostream
+>
 > dtf         <wtfpl@dtf.wtf>
+>
 > 
 > DO WHAT THE FUCK YOU WANT TO PUBLIC LICENCE
 > TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 > 
 > 0. You just DO WHAT THE FUCK YOU WANT TO.
 
-### DBAD - DON'T BE A DICK PUBLIC LICENSE
+## DBAD - DON'T BE A DICK PUBLIC LICENSE
 
 > Version 1.1, December 2016
 > Copyright (C) 2022 Seb
