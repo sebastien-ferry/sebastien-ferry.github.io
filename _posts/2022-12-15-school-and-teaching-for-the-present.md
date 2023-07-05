@@ -23,7 +23,7 @@ Since 100 years
 
 Industrialization of learning
 
-Deleuze; reproduction of elites
+Bourdieu; reproduction of elites
 
 # Solutions ?
 
@@ -53,4 +53,9 @@ Minecraft education
 > *with some scratch inside*
 
 
+# Other / Some pointers
+
+https://phet.colorado.edu/fr/simulations/circuit-construction-kit-dc-virtual-lab
+Construire un circuit (Labo virtuel) : CC
+HTML5
 
