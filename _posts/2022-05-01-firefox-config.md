@@ -48,6 +48,14 @@ ctrl-shift-a
 
 # about:config
 
+## ...
+Source: https://wiki.archlinux.org/title/Firefox
+
+  * browser.quitShortcut.disabled : no ctrl-q
+  * browser.uidensity = 1 : compact mode
+  * toolkit.legacyUserProfileCustomizations.stylesheets = true : enable userChrome.css and userContent.css
+  * pdfjs.spreadModeOnLoad = 1 : open PDF with 2 pages
+
 ## Let the URL bar be just a URL bar
 2022-05-03 Firefox 99.0.1 OK!
 * keyword.enabled : false
