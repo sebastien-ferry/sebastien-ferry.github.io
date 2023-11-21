@@ -56,6 +56,9 @@ Source: https://wiki.archlinux.org/title/Firefox
   * toolkit.legacyUserProfileCustomizations.stylesheets = true : enable userChrome.css and userContent.css
   * pdfjs.spreadModeOnLoad = 1 : open PDF with 2 pages
 
+  * full-screen-api.ignore-widgets = true :fullscreen inside i3 container!
+  * https://blog.wains.be/2019/2019-11-13-full-screen-firefox-i3-container/
+
 ## Let the URL bar be just a URL bar
 2022-05-03 Firefox 99.0.1 OK!
 * keyword.enabled : false
