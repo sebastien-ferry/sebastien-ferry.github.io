@@ -59,6 +59,21 @@ Source: https://wiki.archlinux.org/title/Firefox
   * full-screen-api.ignore-widgets = true :fullscreen inside i3 container!
   * https://blog.wains.be/2019/2019-11-13-full-screen-firefox-i3-container/
 
+## No prefetch
+Source: https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_prefetching
+
+  * network.prefetch-next = false
+  * network.dns.disablePrefetch = true
+  * network.http.speculative-parallel-limit = 0
+
+  * messaging-system.rsexperimentloader.enabled = false
+  * browser.search.geoip.url = ""
+  * extensions.getAddons.cache.enabled = false
+  * app.normandy.enabled = false
+  * network.captive-portal-service.enabled = false
+  * network.connectivity-service.enabled = false
+  
+
 ## Let the URL bar be just a URL bar
 2022-05-03 Firefox 99.0.1 OK!
 * keyword.enabled : false
@@ -80,10 +95,6 @@ Ctrl-K to search otherwise
 > How to remove Pocket from Mozilla Firefox
 > about:config
 > “extensions.pocket.enabled”
-
-
-
-
 
 
 # Privacy? WebRTC
